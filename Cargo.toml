@@ -17,6 +17,6 @@ ecdsa = []
 mesalock_sgx = ["sgx_tstd"]
 
 [dependencies]
-ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "sgx_1.1.2" }
+ring = { git = "https://github.com/enigmampc/ring-sgx", tag = "sgx_1.1.2" }
 untrusted = "0.7.0"
 sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
